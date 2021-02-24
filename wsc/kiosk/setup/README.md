@@ -18,6 +18,11 @@ sudo ~/solarnode-os-images/debian/bin/customize.sh -v -z \
         $PWD:/tmp/overlay
 ```
 
+> :warning: **NOTE:** a Debian version equal to or higher than the target image OS is generally
+  required for `customize.sh` to work properly. Thus a Debian >= 11 system should be used in the
+  example given. Also, for a 64-bit target image OS a 64-bit host system works best.
+
+
 # Requirements
 
 The `customize.sh` script relies on a Debian based host system to run, with the following software
